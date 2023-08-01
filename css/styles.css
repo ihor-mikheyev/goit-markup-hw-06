@@ -1,6 +1,7 @@
 :root{
     --primary-font: 'Roboto', sans-serif;
     --secondary-font: "Raleway", sans-serif;
+
 }
 
 body{
@@ -32,11 +33,10 @@ img{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
-    margin-right: 76px; 
     }
 
 .logo-accent-color{
-    color: #2e2f42
+    color: #2e2f42;
 }
 
 .link{
@@ -74,15 +74,16 @@ img{
     height: 72px;
 }
 
-.container{
+/* .container{
     max-width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
-}
+} */
 
 .menu{
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .menu-list{
