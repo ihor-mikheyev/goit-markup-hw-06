@@ -11,7 +11,7 @@
     
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/media.css">
-    <title>Document</title>
+    <title>Webstudio</title>
 </head>
 <body>
     <header class="header">
@@ -24,7 +24,7 @@
                             <a class="link current" href="">Studio</a>
                         </li>
                         <li class="header-link">
-                            <a class="link" href="">Portfolio</a>
+                            <a class="link" href="./portfolio.html">Portfolio</a>
                         </li>
                         <li class="header-link">
                             <a class="link" href="">Contacts</a>
@@ -57,7 +57,7 @@
                 <ul class="mob-list ">
                     <li><a class="link mob-link current" href="#">Studio</a>
                     </li>
-                    <li><a class="link mob-link" href="#portfolio">Portfolio</a>
+                    <li><a class="link mob-link" href="portfolio.html">Portfolio</a>
                     </li>
                     <li><a class="link mob-link" href="#contacts">Contacts</a>
                     </li>
@@ -120,31 +120,72 @@
         <section>
             <div class="benefit-container">
                 <div class="container">
-                    <!-- <h2 class="title is-hidden">Empty title</h2> -->
-                    <ul class="benefits-list">
-                        <li class="benefits-item">
-                            <h2 class="benefits-title title">Strategy</h2>
-                            <p class="benefits-text">Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
-                        </li>
-                        <li class="benefits-item">
-                            <h2 class="benefits-title title">Punctuality</h2>
-                            <p class="benefits-text">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
-                        </li>
-                        <li class="benefits-item">
-                            <h2 class="benefits-title title">Diligence</h2>
-                            <p class="benefits-text">Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
-                        </li>
-                        <li class="benefits-item">
-                            <h2 class="benefits-title title">Technologies</h2>
-                            <p class="benefits-text">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
-                        </li>
-                    </ul>
+                    <h2 class="title visually-hidden">Empty title</h2>
+                    <div>
+                        <ul class="benefits-list">
+                            <li class="benefits-item">
+                                <div class="benefit-add">
+                                    <svg class="benefit-icon" width="64" height="64">
+                                        <use href="./images/icons.svg#icon-antenna"></use>
+                                    </svg>
+                                </div>
+                                <h3 class="benefits-title title">Strategy</h3>
+                                <p class="benefits-text">Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
+                            </li>
+                            <li class="benefits-item">
+                                <div class="benefit-add">
+                                    <svg class="benefit-icon" width="64" height="64">
+                                        <use href="./images/icons.svg#icon-clock"></use>
+                                    </svg>
+                                </div>
+                                <h3 class="benefits-title title">Punctuality</h3>
+                                <p class="benefits-text">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
+                            </li>
+                            <li class="benefits-item">
+                                <div class="benefit-add">
+                                    <svg class="benefit-icon" width="64" height="64">
+                                        <use href="./images/icons.svg#icon-diagram"></use>
+                                    </svg>
+                                </div>
+                                <h3 class="benefits-title title">Diligence</h3>
+                                <p class="benefits-text">Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
+                            </li>
+                            <li class="benefits-item">
+                                <div class="benefit-add">
+                                    <svg class="benefit-icon" width="64" height="64">
+                                        <use href="./images/icons.svg#icon-astronaut"></use>
+                                    </svg>
+                                </div>
+                                <h3 class="benefits-title title">Technologies</h3>
+                                <p class="benefits-text">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="picture-block">
+                        <div class="container">
+                            <h2 class="title picture-title">What are we doing</h2>
+                            <ul class="picture-list list">
+                                <li class="picture-item">
+                                    <img srcset="./images/about-us-pics/img01.jpg 1x, ./images/about-us-pics/img01-2x.jpg 2x" 
+                                    src="./images/about-us-pics/img01.jpg" alt="Picture 1" width="360">
+                                </li>
+                                <li class="picture-item">
+                                    <img srcset="./images/about-us-pics/img02.jpg 1x, ./images/about-us-pics/img02-2x.jpg 2x"
+                                        src="./images/about-us-pics/img02.jpg" alt="Picture 2" width="360">
+                                </li>
+                                <li class="picture-item">
+                                    <img srcset="./images/about-us-pics/img03.jpg 1x, ./images/about-us-pics/img03-2x.jpg 2x"
+                                        src="./images/about-us-pics/img03.jpg" alt="Picture 3" width="360">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
         <!-- Section-3 Our Team -->
         <section class="section-bg">
-            <div>
+            <div class="container">
                 <h2 class="team-title title">Our Team</h2>
                 <ul class="team-list list">
                     <li class="team-card">
@@ -364,6 +405,7 @@
             </div>
         </section>
     </main>
+    <!-- Footer -->
     <footer>
         <div class="footer-container container">
             <div class="footer-logo">
@@ -375,7 +417,7 @@
                 <p class="footer-social-text footer-title-position">Social media</p>
                 <ul class="list footer-social-list">
                     <li class="ellipse">
-                        <a class="social-link" href="">
+                        <a class="social-link social-active" href="">
                             <svg class="social-card-icon " width="24" height="24">
                                 <use href="./images/icons.svg#icon-instagram">
                                 </use>
@@ -383,7 +425,7 @@
                         </a>
                     </li>
                     <li class="ellipse">
-                        <a class="social-link" href="">
+                        <a class="social-link social-active" href="">
                             <svg class="social-card-icon" width="24" height="24">
                                 <use href="./images/icons.svg#icon-twitter">
                                 </use>
@@ -391,7 +433,7 @@
                         </a>
                     </li>
                     <li class="ellipse">
-                        <a class="social-link" href="">
+                        <a class="social-link social-active" href="">
                             <svg class="social-card-icon" width="24" height="24">
                                 <use href="./images/icons.svg#icon-facebook">
                                 </use>
@@ -399,7 +441,7 @@
                         </a>
                     </li>
                     <li class="ellipse">
-                        <a class="social-link" href="">
+                        <a class="social-link social-active" href="">
                             <svg class="social-card-icon" width="24" height="24">
                                 <use href="./images/icons.svg#icon-linkedin">
                                 </use>
@@ -414,7 +456,7 @@
                     <label class="subcribe-label" for="user-email">
                         <input type="email" name="user-email" id="user-email" placeholder="E-mail" class="input-footer">
                     </label>
-                    <button class="subsrcribe-btn" type="submit">Subscribe
+                    <button class="subsrcribe-btn social-active" type="submit">Subscribe
                         <svg class="subsrcribe-icon" width="24" height="24">
                             <use href="./images/icons.svg#icon-send"></use>
                         </svg>
